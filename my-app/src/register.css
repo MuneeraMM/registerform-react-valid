@@ -1,0 +1,73 @@
+/* Google fonts - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#log {
+    border: 2px solid rgb(219, 216, 216);
+    border-radius: 10px;
+    padding: 60px 40px;
+    margin-top: 50px;
+}
+img {
+    width: 50px;
+    margin-top: -30px;
+
+}
+form h1 {
+    font-size: 22px;
+    
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+form p {
+    font-size: 14px;
+    font-weight: 200;
+    /* color: #333;  */
+    text-align: center;
+
+}
+form label {
+    float: left;
+}
+form input ::placeholder{
+    color: #b8b8b8
+}
+form .star {
+    color: #d93025;
+    font-size: 10px;
+    font-weight: 100;
+
+}
+form .error {
+    color: #d93025;
+    font-size: 13px;
+    display: none;
+    margin-top: 4px;
+    /* float: left; */
+
+}
+.invalid .error{
+    display: flex;
+}
+.invalid input {
+    border-color: #d93025;
+}
+.error .error-icon {
+    margin-right: 8px;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.error-text {
+    display: inline-block;
+}
+
+form .btn {
+    margin-top: 20px;
+    height: 100% !important;
+    width: 100% !important;
+}
+form .verror {
+    color: #d93025;
+
+}
